@@ -68,6 +68,11 @@ html {
   display: none;
   cursor: pointer;
 }
+.header .navbar .icon #bar{
+  justify-content: end;
+  margin-left: 34rem;
+  display: none;
+}
 
 /* Responsive typography */
 /* @media screen and (max-width: 1254px){
@@ -114,22 +119,9 @@ html {
       right: 0;
   }
 } */
-  .header .navbar .icon #bar{
-    justify-content: end;
-    margin-left: 34rem;
-    display: none;
-  }
+ 
   /* main */
-  .section{
-    width: 100px;
-    margin: 0px;
-  }
-  .section .container .myslides img{
-    width: 450px;
-    margin-right:3rem;
-    margin-top: 5rem;
-    margin-left: 16rem;
-  }
+ 
 .section{
   width: 100%;
   margin-top: 3.5rem;
@@ -143,6 +135,12 @@ html {
 .myslides{
   width: 50%
   
+}
+.section .container .myslides img{
+  width: 450px;
+  margin-right:3rem;
+  margin-top: 5rem;
+  margin-left: 16rem;
 }
 .container .text{
   color: hsl(250, 8%, 35%);
