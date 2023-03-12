@@ -37,7 +37,7 @@ html {
 
 .header .navbar{
     display: flex;
-    padding: 0.1rem 15rem;
+    padding: 0.1rem 10rem;
     align-items: center;
     justify-content: space-between;
 }
