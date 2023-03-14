@@ -6,7 +6,6 @@
 body{
   font-family: 'Poppins', sans-serif;
   background-color: hsl(250, 60%, 98%);
-  /* overflow: hidden; */
   overflow-x: hidden;
 }
 html {
