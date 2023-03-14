@@ -1,0 +1,222 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(250, 60%, 98%);
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 0px 0px 4px;
+    top: 0px;
+    right: 0;
+    left: 0;
+    color: hsl(250, 8%, 35%);
+    position: relative;
+    position: fixed;
+    background-color: hsl(250, 60%, 98%);
+    z-index: 999;
+    /* padding-bottom: 61px; */
+  
+}
+.header .navbar .center .div{
+  width: 6px;
+  height: 6px;
+  margin-top: 2px;
+  background: rgb(23, 22, 22);
+  margin-bottom: -15px;
+  margin-left: 0.9rem;
+  border-radius: 50%;
+}
+
+.header .navbar{
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .navbar .logo{
+  font-size: 1.7rem;
+  padding-top: 5px;
+  margin-left: 1.9rem;
+  font-family: 'Poppins', sans-serif;
+}
+.header .center ul{
+  list-style: none;
+  display: flex;
+  text-transform: capitalize;
+  padding-right: 23rem;
+}
+.header .center li{
+  margin-right: 20px; 
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 1rem
+  
+}
+.header .center a{
+  text-decoration: none;
+  color: hsl(250, 8%, 35%);
+}
+.header .center li a:hover{
+  color: #e98446;
+}
+.header .navbar .icon{
+  padding-top: 10px;
+}
+.header .navbar .icon i{
+  margin-right: 10px;
+}
+#bar{
+  display: none;
+  cursor: pointer;
+}
+.header .navbar .icon #bar{
+  justify-content: end;
+  margin-left: 34rem;
+  display: none;
+}
+
+  #first{
+    width: 100%;
+    height: 150px;
+    margin-top: 8rem;
+    position: relative;
+    background-color: hsl(250, 60%, 98%);
+  }
+  #first .first{
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  #first .first :first-child{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+  #first .first p{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+
+  }
+  #first .first .fas{
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+  #first .first span{
+    color: #e98446;
+  }
+
+/* fffffffffffffffffffffffffffffffffffffffffffffffffffff */ 
+.one{
+    display: flex;
+    margin-top: 15rem;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+.container{
+  width: 41%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 29%;
+}
+.containerr{
+  width: 41%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 73%;
+}
+.wrapper{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 5px 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0,0,50,0.2);
+}
+.toggle,
+.content{
+    font-family: "Poppins",sans-serif;
+}
+.toggle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #111130;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 0;
+}
+.content{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+/* footer */
+.footer{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 17rem;
+  padding-left: 4rem;
+  padding-right: 3rem; 
+  text-transform: capitalize; 
+  line-height: 2rem;
+}
+.footer h1{
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+.footer .e-shopper h1{
+  text-transform: lowercase;
+}
+.footer p{
+  color: #666;
+  font-size: 1rem;
+}
+.copy{
+  width: 100%;
+  color: #666;
+  font-size: 1rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 33rem;
+  margin-bottom: 3rem;
+  height: 65px;
+}
+
+
+
